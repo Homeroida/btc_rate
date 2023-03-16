@@ -6,7 +6,7 @@ try:
     # conveer to float
     n = float(n)
 
-    # sending requests for data
+    # API endpoint and GET request to the API
     response = requests.get(
         'https://api.coindesk.com/v1/bpi/currentprice.json')
     data = response.json()
